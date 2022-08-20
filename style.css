@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@400;700&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(hotpink,purple) ;
+}
+main{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+#my-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+#logo{
+    height: 30px;
+}
+#logo:hover{
+    height: 40px;
+}
+ul{
+   list-style: none; 
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.ul li{
+    display: inline;
+    padding: 1.5rem;
+}
+.all{
+    background-color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+.writeup{
+    padding: 20px 50px;
+}
+.one{
+   text-justify: newspaper;
+   font-family: 'Dancing Script', cursive;
+   font-size: 1.5rem;
+}
+.two{
+    padding: 10px 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+@media only screen and (min-width:600px){
+    main{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .all{
+        background-color: aliceblue;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-radius: 20px;
+    }
+    #logo{
+        height: 25px;
+    }
+    #logo:hover{
+        height: 35px;
+    }
+    .ul li{
+        padding: 0.5rem;
+    }
+    #my-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:600px){
+    main{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .all{
+        background-color: aliceblue;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    #my-image{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    #logo{
+        height: 15px;
+    }
+    #logo:hover{
+        height: 25px;
+        }
+    .ul li{
+        padding: 0.3rem;
+    }
+}
+
