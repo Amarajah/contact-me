@@ -49,6 +49,9 @@ ul{
 .writeup{
     padding: 20px 50px;
 }
+a{
+    text-decoration: none;
+}
 .one{
    text-justify: newspaper;
    font-family: 'Dancing Script', cursive;
