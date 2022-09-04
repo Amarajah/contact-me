@@ -107,6 +107,7 @@ a{
     font-family: 'Dancing Script', cursive;
     border-radius: 50px;
     font-size: 25px;
+    border:1px solid black;
 }
 #but:hover{
     background-color: black;
