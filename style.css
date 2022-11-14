@@ -108,12 +108,7 @@ a{
     width: 150px;
     font-family: 'Poppins', cursive;
     border-radius: 50px;
-    font-size: 25px;
-<<<<<<< HEAD
-    border: 1px solid black;
-=======
-    border:1px solid black;
->>>>>>> f6f4036c3378222d13b50b75a1b8018153feb51c
+    font-size: 25px
 }
 #but:hover{
     background-color: black;
@@ -128,10 +123,6 @@ a{
         padding-bottom: 100px;
     }
     .all{
-<<<<<<< HEAD
-
-=======
->>>>>>> f6f4036c3378222d13b50b75a1b8018153feb51c
         background-color: rgba(255,255,255,0.1);
         padding-top: 100px;
         padding-bottom: 100px;
@@ -207,12 +198,15 @@ a{
         height: 25vh;
         padding: 20px;
     }
+    .mail::placeholder{
+        font-size: 16px ;
+    }
     .button{
         margin-top: 25px;
     }
     #but{
         height: 10vh;
-        font-size: 25px;
+        font-size: 18px;
         border: 1px solid black;
     }
 }
