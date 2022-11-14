@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@400;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-image:linear-gradient(hotpink,purple) ;
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
 }
 main{
     padding-top: 150px;
@@ -21,10 +22,10 @@ main{
     border-radius: 200px;
 }
 #logo{
-    height: 30px;
+    height: 40px;
 }
 #logo:hover{
-    height: 40px;
+    height: 50px;
 }
 a{
     text-decoration: none;
@@ -48,9 +49,10 @@ ul{
     margin-left: 200px;
     margin-right: 200px;
     border-radius: 20px;
-    backdrop-filter: blur(70px);
-    border: 2px solid transparent;
-    box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     line-height: 1.5;
 }
 .b{
@@ -67,15 +69,14 @@ a{
 }
 .one{
    text-justify: newspaper;
-   font-family: 'Dancing Script', cursive;
+   font-family: 'Poppins', cursive;
    font-size: 1.5rem;
 }
 .two{
     padding: 10px 0px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', cursive;
     font-size: 1.5rem;
 }
-<<<<<<< HEAD
 #message{
     margin-top: 60px;
     display: flex;
@@ -93,7 +94,7 @@ a{
 .mail::placeholder{
     text-align: center;
     color: black;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', cursive;
     font-size: 25px;
 }
 .button{
@@ -105,9 +106,10 @@ a{
     background-color: transparent;
     height: 10vh;
     width: 150px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', cursive;
     border-radius: 50px;
     font-size: 25px;
+    border: 1px solid black;
 }
 #but:hover{
     background-color: black;
@@ -115,35 +117,33 @@ a{
     font-size: 30px;
     width: 200px;
 }
+
 @media only screen and (max-width:1080px){
-=======
-@media only screen and (max-width:800px){
->>>>>>> 6f0fafcd39de7ea9d3e610952806e8f4c790acb3
     main{
         padding-top: 100px;
         padding-bottom: 100px;
     }
     .all{
-<<<<<<< HEAD
+
         background-color: rgba(255,255,255,0.1);
-=======
-        background-color: aliceblue;
->>>>>>> 6f0fafcd39de7ea9d3e610952806e8f4c790acb3
         padding-top: 100px;
         padding-bottom: 100px;
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 20px;
-        backdrop-filter: blur(70px);
-        border: 2px solid transparent;
-        box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
         line-height: 1.5;
     }
     #logo{
-        height: 25px;
+        height: 35px;
     }
     #logo:hover{
-        height: 35px;
+        height: 45px;
     }
     .ul li{
         padding: 0.5rem;
@@ -162,23 +162,18 @@ a{
         overflow-x: hidden;
     }
     .all{
-<<<<<<< HEAD
         background-color: rgba(255,255,255,0.1);
-=======
-        background-color: aliceblue;
->>>>>>> 6f0fafcd39de7ea9d3e610952806e8f4c790acb3
         padding-top: 50px;
         padding-bottom: 50px;
         margin-left: 15px;
         margin-right: 15px;
-<<<<<<< HEAD
         border-radius: 20px;
-        backdrop-filter: blur(70px);
-        border: 2px solid transparent;
-        box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
         line-height: 1.5;
-=======
->>>>>>> 6f0fafcd39de7ea9d3e610952806e8f4c790acb3
     }
     #my-image{
         width: 150px;
@@ -186,10 +181,10 @@ a{
         border-radius: 100px;
     }
     #logo{
-        height: 15px;
+        height: 25px;
     }
     #logo:hover{
-        height: 25px;
+        height: 40px;
         }
     .ul li{
         padding: 0.3rem;
@@ -213,4 +208,3 @@ a{
         font-size: 25px;
     }
 }
-
