@@ -75,8 +75,6 @@ a{
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
 }
- branch
- HEAD
 #message{
     margin-top: 60px;
     display: flex;
@@ -109,6 +107,7 @@ a{
     font-family: 'Dancing Script', cursive;
     border-radius: 50px;
     font-size: 25px;
+    border:1px solid black;
 }
 #but:hover{
     background-color: black;
@@ -117,21 +116,12 @@ a{
     width: 200px;
 }
 @media only screen and (max-width:1080px){
-@media only screen and (max-width:800px){
-6f0fafcd39de7ea9d3e610952806e8f4c790acb3
-@media only screen and (max-width:800px){
-master
     main{
         padding-top: 100px;
         padding-bottom: 100px;
     }
     .all{
-HEAD
         background-color: rgba(255,255,255,0.1);
-        background-color: aliceblue;
-branch
-6f0fafcd39de7ea9d3e610952806e8f4c790acb3
-master
         padding-top: 100px;
         padding-bottom: 100px;
         margin-left: 20px;
@@ -165,25 +155,16 @@ master
         overflow-x: hidden;
     }
     .all{
-    HEAD
         background-color: rgba(255,255,255,0.1);
-        background-color: aliceblue;
-branch
-6f0fafcd39de7ea9d3e610952806e8f4c790acb
- master
         padding-top: 50px;
         padding-bottom: 50px;
         margin-left: 15px;
         margin-right: 15px;
- branch
- HEAD
         border-radius: 20px;
         backdrop-filter: blur(70px);
         border: 2px solid transparent;
         box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
         line-height: 1.5;
- 6f0fafcd39de7ea9d3e610952806e8f4c790acb{
- master
     }
     #my-image{
         width: 150px;
@@ -216,6 +197,7 @@ branch
     #but{
         height: 10vh;
         font-size: 25px;
+        border: 1px solid black;
     }
 }
 
